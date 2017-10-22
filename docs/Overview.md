@@ -1,4 +1,4 @@
-#Overview
+# Overview
 
 
 This document provides an overview of the MatLab white matter signal abnormality (WMSA) segmentation tool that can be used after processing a given subject with FreeSurfer’s recon-all stream. All recons should be manually inspected for proper gray/white and gray/pial boundaries, edited, and re-processed with recon-all if necessary before using this tool. 
