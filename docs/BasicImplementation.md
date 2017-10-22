@@ -6,6 +6,8 @@ The following steps are required to run this tool:
 
 `wmsaseg_regandnorm_wrapper.csh  $SUBJ_DIR  $SUBJ_ID  $WMSA_OUTDIR  $ATLAS`
 
+where `$SUBJ_DIR` is your main directory housing all subjects' individual directories, `$SUBJ_ID` is the ID corresponding to the name of an individual subject's directory, `$WMSA_OUTDIR` is the name of the new directory where all WMSA outputs will go, and `$ATLAS` is the full path to the appropriate atlas from the `/preproc-atlases` directory for your dataset.
+
 2. Using matlab, run the wmsaseg.m function with the following command-line inputs. Again, the example below is for a use case using T1 + FLAIR: 
 
 `wmsaseg(“$SUBJ_DIR”, “$SUBJ_ID”, “$WMSA_OUTDIR”, “t1”, 1, “flair”, 1)`
