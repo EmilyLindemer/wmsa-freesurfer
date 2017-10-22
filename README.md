@@ -5,12 +5,12 @@ The code in this repository comprises a package intended for the automatic segme
 
 Instructions and documentation for this software package can be found here: 
 
-I. [Overview](/docs/Overview.md)
-II. [Background](/docs/Background.md)
-III. [Included Files](/docs/IncludedFiles.md) 
-IV. [Basic Implementation](/docs/BasicImplementation.md)
-V. [Segmentation Parameters](/docs/SemgentationParameters.md)
-VI. [Creating You Own Atlas](/docs/CreatingAtlas.md)
-VII. [Troubleshooting](Troubleshooting.md)
-VIII. [Examples](Examples.md)
-IX. [Tool Citation](Tool Citation)
+I. [Overview](/docs/Overview.md) . 
+II. [Background](/docs/Background.md) .  
+III. [Included Files](/docs/IncludedFiles.md) .   
+IV. [Basic Implementation](/docs/BasicImplementation.md) .   
+V. [Segmentation Parameters](/docs/SemgentationParameters.md) . 
+VI. [Creating You Own Atlas](/docs/CreatingAtlas.md) . 
+VII. [Troubleshooting](Troubleshooting.md) . 
+VIII. [Examples](Examples.md) . 
+IX. [Tool Citation](Tool Citation) . 
