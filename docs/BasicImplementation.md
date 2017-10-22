@@ -2,7 +2,7 @@
 
 The following steps are required to run this tool: 
 
-1. Run the provided .csh script that performs image registration and intensity normalization. I have included 3 atlases for intensity normalization to be used depending on your input modalities. For example, if you are using T1 + FLAIR, you should use the `wmsa.miccair.atlas.t1flair.gca`:
+1. Run the provided .csh script that performs image registration and intensity normalization. I have included 3 atlases for intensity normalization to be used depending on your input modalities. For example, if you are using T1 + FLAIR, you should use the `wmsa.miccair.atlas.t1flair.gca` located in the `preproc-atlases` subdirectory:
 
 `wmsaseg_regandnorm_wrapper.csh  $SUBJ_DIR  $SUBJ_ID  $WMSA_OUTDIR  $ATLAS`
 
