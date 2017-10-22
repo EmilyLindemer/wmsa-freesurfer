@@ -17,8 +17,8 @@ V. [Segmentation Parameters](/docs/SemgentationParameters.md)
 
 VI. [Creating You Own Atlas](/docs/CreatingAtlas.md) 
 
-VII. [Troubleshooting](Troubleshooting.md) 
+VII. [Troubleshooting](/docs/Troubleshooting.md) 
 
-VIII. [Examples](Examples.md) 
+VIII. [Examples](/docs/Examples.md) 
 
-IX. [Tool Citation](Tool Citation) 
+IX. [Tool Citation](/docs/ToolCitation.md) 
