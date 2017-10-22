@@ -97,14 +97,14 @@ if (pd_e==1)
         exit
     end
     volarray=[t1_m; t2_m; pd_m]';
-    load('t1t2pd_atlas_08232016.mat','atlas');
+    load('/atlases/t1t2pd_atlas_08232016.mat','atlas');
 elseif(t2_e==1 && flair_e==1)
     if (t1_e == 0 || pd_e == 1)
         sprintf('The required input is T1/T2/PD, T1/T2/FLAIR, or T1/FLAIR')
         exit
     end
     volarray=[t1_m; t2_m; flair_m]';
-    load('t1t2flair_atlas_08112016.mat','atlas');
+    load('/atlases/t1t2flair_atlas_08112016.mat','atlas');
 elseif(t2_e==0 && flair_e==1)
     if (t1_e == 0 || pd_e == 1)
         sprintf('The required input is T1/T2/PD, T1/T2/FLAIR, or T1/FLAIR')
@@ -114,7 +114,7 @@ elseif(t2_e==0 && flair_e==1)
     load('t1flair_atlas_08252016.mat','atlas');
 elseif(t1_e == 1 && t2_e == 1) 
     volarray = [t1_m; t2_m]';
-    load('t1t2_atlas_05032017.mat','atlas')
+    load('/atlases/t1t2_atlas_05032017.mat','atlas')
 end
 
 
